@@ -1,8 +1,7 @@
 import React from 'react';
 import Image from 'next/image'
-import style from '../../styles/Hero.module.css'
 
-const Hero = () => {
+const Hero = ({style}) => {
     return (
         <div className={style.heroContainer}>
             <div className={style.heroImg}>

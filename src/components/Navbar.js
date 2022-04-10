@@ -1,6 +1,5 @@
 import React from "react"
 import Image from 'next/image'
-import style from '../../styles/Navbar.module.css'
 import Search from './icons/search.js'
 import Account from './icons/account.js'
 import Shop from './icons/shop.js'
@@ -12,7 +11,7 @@ const Menu = [
 	'BLOG',
 ]
 
-const Navbar = () => {
+const Navbar = ({style}) => {
     return (
         <React.Fragment>
             <div className={style.topContainer}>

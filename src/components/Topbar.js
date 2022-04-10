@@ -1,7 +1,6 @@
 import * as React from 'react';
-import style from '../../styles/TopBar.module.css';
 
-export default function ElevateAppBar(props) {
+export default function ElevateAppBar({style}) {
   return (
     <React.Fragment>
         <div className={style.TopBar}>

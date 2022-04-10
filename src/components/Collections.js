@@ -1,6 +1,5 @@
 import React from 'react'
 import Card from './Card'
-import style from '../../styles/Collections.module.css'
 
 const Items = [
     {
@@ -17,7 +16,7 @@ const Items = [
     },
 ]
 
-const Collections = () => {
+const Collections = ({style, CardStyles}) => {
     return (
         <React.Fragment>
             <div className={style.Collection}>
@@ -25,7 +24,7 @@ const Collections = () => {
                 <div className={style.cards}>
                     {Items.map((item) => {
                         return (
-                            <Card image={item.image} isBlack={true} key={item}>
+                            <Card image={item.image} isBlack={true} key={item} style={CardStyles}>
                                 <span>{item.name}</span>
                             </Card>
                         )

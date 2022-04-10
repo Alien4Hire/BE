@@ -1,6 +1,5 @@
 import React from 'react'
 import Card from './Card'
-import style from '../../styles/SectionFour.module.css'
 
 const Items = [
     {
@@ -23,7 +22,7 @@ const Items = [
     },
 ]
 
-const SectionFour = () => {
+const SectionFour = ({style}) => {
     return (
         <React.Fragment>
             <div className={style.container}>

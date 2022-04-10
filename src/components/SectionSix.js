@@ -1,10 +1,9 @@
 import React, {useState} from "react";
-import style from '../../styles/SectionSix.module.css'
 import Image from "next/image";
 import LeftArrow from "./icons/leftArrow";
 import RightArrow from "./icons/rightArrow";
 
-const SectionSix = () => {
+const SectionSix = ({style}) => {
     const [name, setName] = useState('HAVANA HALF-FRAME');
     const [cost, setCost] = useState('$165');
 

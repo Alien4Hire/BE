@@ -1,8 +1,7 @@
 import React from "react";
-import style from '../../styles/SectionThree.module.css'
 import Image from "next/image";
 
-const SectionThree = () => {
+const SectionThree = ({style}) => {
     return (
         <React.Fragment>
             <div className={style.background}>
