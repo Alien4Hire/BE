@@ -1,0 +1,32 @@
+.section {
+    position: relative;
+}
+
+.button {
+    background-color: #FDF6D2;
+    outline: none;
+    border: none;
+    width: 192px;
+    height: 53px;
+    font-weight: 700;
+    size: 18px;
+}
+
+.overlay {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.title {
+    color: #F0D442;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.content {
+    color: #FFF;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,53 @@
+.heroImg {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.heroContainer {
+    position: relative;
+}
+
+.heroFloat {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+
+.text {
+    font-style: regular;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.textAlign {
+    padding-left: 15px;
+}
+
+.textlarge {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: regular;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 60px;
+}
+
+.shop {
+    background-color: #222;
+    color: #fff;
+    height: 53px;
+    width: 192px;
+    outline: none;
+    border: none;
+    margin: 0 5px;
+}
+
+.impact {
+    background-color: #F0D442;
+    color: #fff;
+    height: 53px;
+    width: 192px;
+    outline: none;
+    border: none;
+    margin: 0 5px;
+}

@@ -1,0 +1,19 @@
+.Collection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+
+.text {
+    font-style: bold;
+    font-size: 35px;
+    line-height: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-flow: row nowrap;
+}

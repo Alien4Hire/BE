@@ -1,0 +1,82 @@
+.container {
+    width: 100%;
+    height: 45px;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    align-items: center;
+}
+
+.topContainer {
+    background-color: #F1F1F1;
+    height: 32px;
+    width: 100vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.innerContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    position: absolute;
+    right: 10vw;
+}
+
+.menuItems {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.logo {
+    overflow: hidden;
+    height: 47px;
+    width: 110px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.Item {
+    padding: 0 10px;
+    font-style: bold;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row nowrap;
+}
+
+.icons svg {
+    margin: 0 5px;
+}
+
+.align {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 0 10px;
+    line-height: 7px;
+}
+
+.light {
+    font-size: 12px;
+    font-weight: 200;
+    padding-right: 5px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.region {
+    font-style: light;
+    font-size: 12px;
+    line-height: 18px;
+    line-height: 100%;
+    padding-right: 5px;
+}

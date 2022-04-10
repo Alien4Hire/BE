@@ -1,0 +1,40 @@
+.background {
+    background-color: #222;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    flex-flow: column nowrap;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.width {
+    font-size: 20px;
+    line-height: 48px;
+}
+
+.title {
+    color: #F0D442;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.button {
+    background-color: #FDF6D2;
+    outline: none;
+    border: none;
+    width: 192px;
+    height: 53px;
+    font-weight: 700;
+    size: 18px;
+}

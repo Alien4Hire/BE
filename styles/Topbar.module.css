@@ -1,0 +1,45 @@
+.TopBar {
+    background-color: #222222;
+    height: 45px;
+    width: 100vw;
+    position: relative;
+    display: grid;
+    justify-items: center;
+}
+
+.padding {
+    padding-bottom: 45px;
+    height: 45px;
+}
+
+.Text {
+    font-style: Mixed;
+    font-weight: 300;
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+@media (max-width: 600px) {
+    .Text {
+        font-size: 10px;
+    }
+    .TopBar {
+        height: 35px;
+    }
+    
+    .padding {
+        padding-bottom: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 400px) {
+    .Text {
+        font-size: 8px;
+    }
+}
+
+.Bold {
+    font-weight: 600;
+};

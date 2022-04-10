@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: #F1F1F1;
+}
+
+.products {
+    color: #222;
+    display: flex;
+    width: 300px;
+    flex-flow: column nowrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.one {
+    margin: 0;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.two {
+    margin: 0;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.three {
+    margin: 0;
+    font-size: 16px;
+    line-height: 25px;
+}

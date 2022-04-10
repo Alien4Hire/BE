@@ -1,0 +1,52 @@
+.card {
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    background-color: #222;
+    position: relative;
+    border: 2px solid #222;
+}
+
+.cardtwo {
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    background-color: #fff;
+    position: relative;
+    border: 2px solid #222;
+}
+
+.image {
+    z-index: 2;
+}
+
+.offsetImage {
+    position: absolute;
+    top: -80px !important;
+}
+
+.bottomCard {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 45px;
+    z-index: 2;
+    background-color: #222;
+}
+
+.bottomCardTwo {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 45px;
+    z-index: 2;
+    background-color: transparent;
+}
+
+.children {
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    z-index: 3;
+}

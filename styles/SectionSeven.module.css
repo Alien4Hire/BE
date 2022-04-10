@@ -1,0 +1,31 @@
+.section {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+
+.paragraph {
+    font-size: 20px;
+    line-height: 48px;
+}
+
+.left {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 22px;
+    width: 50%;
+    background-color: #F0D442;
+    display: grid;
+    flex-flow: column nowrap;
+    justify-items: left;
+    align-items: center;
+}
+
+.button {
+    width: 192px;
+    height: 53px;
+    background-color: #111;
+    color: #fff;
+    outline: none;
+    border: none;
+}
